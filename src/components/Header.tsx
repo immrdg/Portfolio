@@ -37,7 +37,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <span className="font-bold text-xl text-blue-600 dark:text-blue-400">
-              DevOps Portfolio
+              Gireesh
             </span>
           </div>
 

@@ -6,6 +6,7 @@ const Hero: React.FC = () => {
     <section id="about" className="py-12 md:py-20">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="order-2 lg:order-1">
+          <h4>Hi, I'm <span className="text-red-800 dark:text-blue-400">Desineni Gireesh</span></h4>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900 dark:text-white mb-4">
             DevOps Engineer & <span className="text-blue-600 dark:text-blue-400">Cloud Specialist</span>
           </h1>
@@ -15,37 +16,37 @@ const Hero: React.FC = () => {
           </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="#contact"
-              className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200 shadow-sm hover:shadow focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                href="#contact"
+                className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200 shadow-sm hover:shadow focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
             >
               Get in Touch
             </a>
           </div>
           <div className="flex mt-8 space-x-4">
             <a
-              href="https://github.com/immrdg/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors duration-200"
-              aria-label="GitHub"
+                href="https://github.com/immrdg/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors duration-200"
+                aria-label="GitHub"
             >
-              <Github size={24} />
+              <Github size={24}/>
             </a>
             <a
-              href="https://linkedin.com/in/immrdg"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors duration-200"
-              aria-label="LinkedIn"
+                href="https://linkedin.com/in/immrdg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors duration-200"
+                aria-label="LinkedIn"
             >
-              <Linkedin size={24} />
+              <Linkedin size={24}/>
             </a>
             <a
-              href="./Resume-Dg.pdf"
-              className="flex items-center text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors duration-200 group"
-              aria-label="Resume"
+                href="./Resume-Dg.pdf"
+                className="flex items-center text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors duration-200 group"
+                aria-label="Resume"
             >
-              <ExternalLink size={20} className="mr-1" />
+              <ExternalLink size={20} className="mr-1"/>
               <span className="text-sm font-medium group-hover:underline">Resume</span>
             </a>
           </div>
