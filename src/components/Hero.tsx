@@ -20,16 +20,10 @@ const Hero: React.FC = () => {
             >
               Get in Touch
             </a>
-            <a
-              href="#projects"
-              className="px-6 py-3 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 font-medium rounded-lg border border-slate-300 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-600 transition-colors duration-200 shadow-sm hover:shadow"
-            >
-              View Projects
-            </a>
           </div>
           <div className="flex mt-8 space-x-4">
             <a
-              href="https://github.com/"
+              href="https://github.com/immrdg/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors duration-200"
@@ -38,7 +32,7 @@ const Hero: React.FC = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://linkedin.com/in/immrdg"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors duration-200"
@@ -47,7 +41,7 @@ const Hero: React.FC = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="#"
+              href="Resume-Dg.pdf"
               className="flex items-center text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors duration-200 group"
               aria-label="Resume"
             >
