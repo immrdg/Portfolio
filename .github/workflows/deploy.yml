@@ -27,17 +27,25 @@ jobs:
         run: npm ci
 
       - name: Build React app
-        run: npm run build
+        run: |
+          npm run build
+          ls -la # List all files to verify build directory exists
+
+      - name: Verify build directory
+        run: |
+          echo "Checking build directory:"
+          ls -la build/
+          echo "Build directory contents:"
+          du -sh build/*
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
-        with:
-          enablement: true  # Auto-enable Pages if needed
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./build"  # Default Create-React-App output folder
+          path: ./build
+          retention-days: 1
 
   deploy:
     needs: build
