@@ -14,10 +14,10 @@ const skills: Skill[] = [
   { name: 'Terraform', level: 75, category: 'IaC' },
   { name: 'AWS', level: 85, category: 'Cloud' },
   { name: 'Azure', level: 80, category: 'Cloud' },
-  { name: 'Ansible', level: 75, category: 'Configuration Management' },
+  { name: 'Ansible', level: 90, category: 'Configuration Management' },
   { name: 'Prometheus', level: 70, category: 'Monitoring' },
   { name: 'Grafana', level: 75, category: 'Monitoring' },
-  { name: 'Python', level: 80, category: 'Programming' },
+  { name: 'Python', level: 95, category: 'Programming' },
   { name: 'Bash', level: 85, category: 'Programming' },
 ];
 
