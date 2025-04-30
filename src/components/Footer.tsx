@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex mt-5 space-x-4">
               <a
-                href="https://github.com/"
+                href="https://github.com/immrdg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors duration-200"
@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
                 <Github size={20} />
               </a>
               <a
-                href="https://linkedin.com/"
+                href="https://linkedin.com/in/immrdg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors duration-200"
@@ -72,10 +72,10 @@ const Footer: React.FC = () => {
             </h3>
             <ul className="mt-4 space-y-3">
               {[
-                { name: 'Resume', href: '#' },
-                { name: 'Blog', href: '#' },
+                { name: 'Resume', href: './Resume-Dg.pdf' },
+                { name: 'Blog', href: 'https://immrdg.hashnode.dev/' },
                 { name: 'Certifications', href: '#' },
-                { name: 'GitHub Repositories', href: 'https://github.com/' },
+                { name: 'GitHub Repositories', href: 'https://github.com/immrdg/' },
               ].map((item) => (
                 <li key={item.name}>
                   <a
