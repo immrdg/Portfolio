@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="Resume-Dg.pdf"
+              href="./Resume-Dg.pdf"
               className="flex items-center text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors duration-200 group"
               aria-label="Resume"
             >
