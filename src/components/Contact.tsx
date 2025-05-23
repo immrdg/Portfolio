@@ -186,15 +186,6 @@ const Contact: React.FC = () => {
                 </div>
               </div>
             </div>
-
-            {/* Map or image */}
-            <div className={`bg-white dark:bg-slate-800 rounded-xl shadow-sm overflow-hidden transition-all duration-500 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-              <img 
-                src="https://images.unsplash.com/photo-1605152276897-4f618f831968?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" 
-                alt="Bangalore" 
-                className="w-full h-40 sm:h-48 object-cover"
-              />
-            </div>
           </div>
 
           {/* Contact form */}
